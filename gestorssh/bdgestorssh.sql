@@ -53,7 +53,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id_administrador`, `login`, `senha`, `nome`, `email`, `accessKEY`, `site`) VALUES
-(1, 'admin', 'AgostinhoCarrara', 'Administrador', 'admin@admin.com', NULL, 'meusite.com');
+(1, 'admin', 'admin', 'Administrador', 'admin@admin.com', NULL, 'meusite.com');
 
 -- --------------------------------------------------------
 
