@@ -12,3 +12,4 @@ apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Igorhenri0407/pl
 ```
 apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Igorhenri0407/plusnssh/ntech/gestorssh/instcheck.sh)
 ```
+"# plusnssh" 
