@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo -e "\033[1;36mINSTALANDO O SINCRONIZADOR GESTOR-SSH\033[0m"
+echo -e "\033[1;36mINSTALANDO O SINCRONIZADOR GESTOR-SSH-AGOSTINHO\033[0m"
 echo "America/Sao_Paulo" > /etc/timezone
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
@@ -12,9 +12,9 @@ echo -e "\033[1;36mCRACKEANDO UMA LICENÇA...\033[0m"
 rm *.sh* > /dev/null 2>&1
 rm *.zip > /dev/null 2>&1
 apt install unzip -y > /dev/null 2>&1
-wget github.com/nandoslayer/plusnssh/raw/ntech/gestorssh/sshplus.zip.001 > /dev/null 2>&1
-wget github.com/nandoslayer/plusnssh/raw/ntech/gestorssh/sshplus.zip.002 > /dev/null 2>&1
-wget github.com/nandoslayer/plusnssh/raw/ntech/gestorssh/sshplus.zip.003 > /dev/null 2>&1
+wget github.com/Igorhenri0407/plusnssh/raw/ntech/gestorssh/sshplus.zip.001 > /dev/null 2>&1
+wget github.com/Igorhenri0407/plusnssh/raw/ntech/gestorssh/sshplus.zip.002 > /dev/null 2>&1
+wget github.com/Igorhenri0407/plusnssh/raw/ntech/gestorssh/sshplus.zip.003 > /dev/null 2>&1
 cat sshplus.zip* > monitor.zip && zip -F monitor.zip > /dev/null 2>&1
 rm -rf /opt/sshplus > /dev/null 2>&1
 unzip monitor.zip -d  /opt/sshplus/ > /dev/null 2>&1
@@ -24,7 +24,7 @@ if [[ -e "/opt/sshplus/licenca.txt" ]]; then
 sed -i "s;NAND-OCRA-CKED;$crack;g" /opt/sshplus/licenca.txt > /dev/null 2>&1
 fi
 clear
-wget github.com/nandoslayer/plusnssh/raw/ntech/gestorssh/sincpainel.zip > /dev/null 2>&1
+wget github.com/Igorhenri0407/plusnssh/raw/ntech/gestorssh/sincpainel.zip > /dev/null 2>&1
 unzip sincpainel.zip > /dev/null 2>&1
 chmod +x *sh > /dev/null 2>&1
 service ssh restart
