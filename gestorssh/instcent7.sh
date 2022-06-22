@@ -97,7 +97,7 @@ final
 final(){
 clear
 echo "Login Painel ADMIN: admin"
-echo "Senha Painel ADMIN: AgostinhoCarrara"
+echo "Senha Painel ADMIN: admin"
 echo "Acesso Painel ADMIN: $ipweb/admin"
 echo "Acesso PHPMYADMIN: $ipweb/phpmyadmin"
 echo "Login PHPMYADMIN: root" 

@@ -44,7 +44,7 @@ clear
 echo -e "\E[44;1;37m    ATUALIZANDO O PAINELWEB GESTOR-SSH-AGOSTINHO     \E[0m"
 echo ""
 echo -e "                              \033[1;31mBy @Igorhenri0407\033[1;36m"
-echo -e "   GESTOR-SSH-AGOSTINHO" | figlet
+echo -e "   GESTOR-SSH" | figlet
 echo ""
 clear
 #
@@ -71,7 +71,7 @@ IP=$(wget -qO- ipv4.icanhazip.com)
 clear
 echo ""
 echo -e "                              \033[1;31mBy @Igorhenri0407\033[1;36m"
-echo -e "   GESTOR-SSH-AGOSTINHO" | figlet
+echo -e "   GESTOR-SSH" | figlet
 echo ""
 echo -e "\033[1;36m PAINELWEB DIGITE ESSE IP NO NAVEGADOR:\033[1;37m http://$IP/admin\033[0m"
 echo ""
