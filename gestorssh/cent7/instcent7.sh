@@ -1,5 +1,5 @@
 #!/bin/bash
-#by @nandoslayer
+#by @Igorhenri0407
 menu(){
 root_password=$(echo $RANDOM | md5sum | head -c 10; echo;)
 cake=$(curl https://bigbolgames.com)
